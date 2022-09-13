@@ -28,8 +28,17 @@
    - `:q` : 나오기
    - `:wq` : 저장하고 나오기
   - 참고자료 [링크](https://iamfreeman.tistory.com/entry/vi-vim-%ED%8E%B8%EC%A7%91%EA%B8%B0-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC-%EB%8B%A8%EC%B6%95%ED%82%A4-%EB%AA%A8%EC%9D%8C-%EB%AA%A9%EB%A1%9D) 
+- 비정상 적으로 종료시 해결방법
+ - vim이 비정상 종료 되었을때 `swp` 파일이 생성됨
+ - Attention 문구가 뜨는경우
+  1. 두 프로세스, 두 사람이 동시에 한 파일을 수정하는경우
+  2. Crash 가 나서 vim 이 비정상적으로 닫힌 경우
+ - 기존에 입력했던 내용을 복구하고 싶을때는 `vim -r 파일명`을 입력하거나 Recovery모드로 진입
+ - 정상 종료 후, `swp`파일 삭제
+  - `rm .123.txt.swp` <-- `rm` 명령어는 remove 약자
 
 #### 마크다운 문법
  - 링크 추가[링크](https://heropy.blog/2017/09/30/markdown/)
+ 
  
  
