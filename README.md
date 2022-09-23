@@ -5,7 +5,7 @@
 - [리눅스 커맨드 라인 기초, vim사용법](https://github.com/rick42600/TIL/blob/main/github/github.md)
 ## RPA
 
-## webprogramming
+## web programming
 - [웹문서만들기 기초](https://github.com/rick42600/TIL/blob/main/webprogramming/makewebdoc.md)
 - [줄바꿈태그`<br>`](https://github.com/rick42600/TIL/blob/main/webprogramming/%3Cbr%3Etag.md)
 - [내부스타일시트](https://github.com/rick42600/TIL/blob/main/webprogramming/innerstylesheet.md)
