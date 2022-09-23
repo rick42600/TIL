@@ -27,8 +27,25 @@
 ```html
 <img src="images/apple.jpg" alt="사과 사진” width=“50%”>
 ```
-# 참고
+
+## 참고
 - 무료 이미지 사이트
-- unsplash : [https://unsplash.com/](https://unsplash.com/)
-- Pexels : [https://www.pexels.com/ko-kr/](https://www.pexels.com/ko-kr/)
-- pixabay : [https://pixabay.com/](https://pixabay.com/)
+  * unsplash : [https://unsplash.com/](https://unsplash.com/)
+  * Pexels : [https://www.pexels.com/ko-kr/](https://www.pexels.com/ko-kr/)
+  * pixabay : [https://pixabay.com/](https://pixabay.com/)
+
+## 이미지에 캡션 붙이기
+- figure 
+  * 캡션을 붙일 대상을 <figure> 태그와 </figure> 태그로 감싸줌
+  * 이미지 뿐만 아니라 표, 소스 코드,비디오 등 캡션이 필요한 어디에나 사용할 수 있음 
+- figcaption
+  * CSS를 사용해 캡션 내용을 꾸밀 수 있음
+```html
+<figure>
+  <img src="image/babo.jpg" alt="babo">
+  <figcaption>지식은 우정을 대신할 수 없어<br>너를 읽을 바엔 차라리 바보가 될래<br>- 뚱이</figcaption>
+</figure>
+```
+
+
+          
