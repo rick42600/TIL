@@ -32,3 +32,29 @@
 - `<thead>,<tbody>,<tfoot>` 태그 사용
 - 웹 브라우저 화면에서 보이지 않지만, 화면 낭독기나 자바스크립트 등에서 읽을 수 있다. 시각장애인도 표의 구조이해 가능
 - 표의 본문이 길 경우 자바스크립트를 이용해 제목과 바닥 부분을 고정하고 본무남 스크롤 되도록 할 수 있다.
+<img src="../image/tableimage.png" alt="표이미지" >
+
+```html
+<table border="1">
+  <caption>표구조나누기</caption>
+  <thead>
+    <tr>
+      <th>번호</th>
+      <th>이름</th>
+      <th>주소</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>홍길동</td>
+      <td>서울</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>허준</td>
+      <td>부산</td>
+    </tr>
+  </tbody>
+</table>
+```
