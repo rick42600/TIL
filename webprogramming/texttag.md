@@ -13,15 +13,16 @@
     <cite>셋</cite>
 </p>
 ```
-## 특수문자
-예시)
-```html
-<p>&bigstar</p>
-```
 ## 형광펜 효과
 ```html
 <p>
     <mark>형광펜효과</mark>
 </p>
 ```
-W3C에서 제공하는 엔티티 코드 주소 : [https://html.spec.whatwg.org/multipage/named-characters.html](https://html.spec.whatwg.org/multipage/named-characters.html)
+## 특수문자
+예시)
+```html
+<p>&bigstar</p>
+```
+
+W3C에서 제공하는 특수문자 엔티티 코드 주소 : [https://html.spec.whatwg.org/multipage/named-characters.html](https://html.spec.whatwg.org/multipage/named-characters.html)
