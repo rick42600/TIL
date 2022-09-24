@@ -111,7 +111,7 @@
   * `<td rowspan="합칠 셀의 개수">셀의 내용</td>`
   * `<td colspan="합칠 셀의 개수">셀의 내용</td>`
   
-<img src="../image/tableedit2.png" alt="표편집이미지colspan" >
+<img src="../image/tableedit4.png" alt="표편집이미지colspan" >
 
 ```html
 <thead>
