@@ -15,7 +15,7 @@
 <img src="../image/bordercollie.jpg" alt="보더콜리">
 ```
 
-- srcset 속성 사용
+- srcset 속성 사용(w 너비 descriptor)
   * 화면 너비가 500px 이하면 bordercollie_small.jpg
   * 화면 너비가 1000px 이하면 bordercollie_m.jpg
   * 화면 너비가 1500px 이하면 bordercollie_large.jpg
@@ -25,4 +25,37 @@
              ../image/bordercollie-m.jpg 1000w,
              ../image/bordercollie-large.jpg 1500w"
              src="../image/bordercollie.jpg" alt="보더콜리">
+```
+
+- srcset 속성 사용(x 픽셀비율 descriptor)
+  * 화면 픽셀 비율에 따라 이미지 변경
+  * x값이 클 수록 고화질의 이미지 사용가능
+  * 현재 브라우저 정보제공 사이트 : [https://www.mydevice.io/](https://www.mydevice.io/)
+
+```html
+<img src = "pic.png" srcset = "pic-low.png 1x, pic-high.png 2x" alt = "이미지">
+```
+
+## `<picture>,<source>` 태그
+- 화면 크기에 따라 다른 이미지를 표시 하는 방법
+- `<picutre>` 태그 안에 필요한 이미지와 속성 지정
+
+```html
+<picture>
+ <source srcset=“이미지 파일 경로“ 속성들>
+ <source srcset=“이미지 파일 경로“ 속성들>
+..... 
+</picture>
+```
+
+예시
+
+```html
+<picture>
+  <source srcset="images/apple-large.jpg" media="(min-width:1024px)">
+  <source srcset="images/apple-medium.jpg" media="(min-width:768px)">
+  <source srcset="images/apple-small.jpg" media="(min-width:320px)">
+  <img src="images/apple.jpg" alt="사과" style="width:100%;">
+</picture>
+
 ```
