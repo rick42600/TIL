@@ -10,4 +10,19 @@
 - 작은 이미지에서 큰 이미지 순으로 입력
 
 - 기존 이미지 삽입방법
-`<img src="image">`
+
+```html
+<img src="../image/bordercollie.jpg" alt="보더콜리">
+```
+
+- srcset 속성 사용
+  * 화면 너비가 500px 이하면 bordercollie_small.jpg
+  * 화면 너비가 1000px 이하면 bordercollie_m.jpg
+  * 화면 너비가 1500px 이하면 bordercollie_large.jpg
+
+```html
+<img srcset="../image/bordercollie-small.jpg 500w,
+             ../image/bordercollie-m.jpg 1000w,
+             ../image/bordercollie-large.jpg 1500w"
+             src="../image/bordercollie.jpg" alt="보더콜리">
+```
