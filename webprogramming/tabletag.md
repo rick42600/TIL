@@ -90,6 +90,8 @@
 - `<colgroup>` 태그: 여려개의 열을 묶을 수 있고 태그 안에 묶는 열의 개수 만큼 `<col>`태그 사용. ※닫는태그 있음
 - `<col>` 태그와 `<colgroup>`태크는 `<caption>` 태그 뒤에, `<tr>,<td>` 태그 전에 사용해야 함
 - `<colgroup>` 태그 안에 있는`<col>` 태그를 비롯해 단독으로 사용한`<col>`태그의 개수와 표의 열의 개수가 같아야 함
+<img src="../image/tableedit1.png" alt="표편집이미지" >
+
 ```html
   <table border="1">
     <caption>표 편집하기</caption>
@@ -100,6 +102,48 @@
       <col width="120px"><!--4-->
     </colgroup>
     <thead>
-     ……
+     ..... <!--표 내용은 편집-->
  </table>
 ```
+
+## 행 합치기, 열 합치기
+- 기본형 
+  * `<td rowspan="합칠 셀의 개수">셀의 내용</td>`
+  * `<td colspan="합칠 셀의 개수">셀의 내용</td>`
+<img src="../image/tableedit2.png" alt="표편집이미지colspan" >
+```html
+<thead>
+  <tr>
+    <td>안녕</td>
+    <td>안녕</td>
+    <td>안녕</td>
+    <td>안녕</td>
+    </tr>
+</thead>
+  <tbody>
+    <tr>
+      <td colspan="4">안녕</td>
+    </tr>
+   ......
+  </tbody>       
+```
+<img src="../image/tableedit3.png" alt="표편집이미지rowspan" >
+```html
+ <thead>
+  <tr>
+    <td>hi</td>
+    <td>hi</td>
+    <td>hi</td>
+    <td>hi</td>
+    </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="3">안녕</td>
+    <td>2행2열</td>
+    <td>2행3열</td>
+    <td>2행4열</td>
+  </tr>
+ .....
+ </tbody>
+ ```
