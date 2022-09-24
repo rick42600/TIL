@@ -12,6 +12,7 @@
 - [다양한텍스트tag](https://github.com/rick42600/TIL/blob/main/webprogramming/texttag.md)
 - [목록태그`<ol>,<ul>,<dl>`](https://github.com/rick42600/TIL/blob/main/webprogramming/listtag.md)
 - [이미지태그`<img>`](https://github.com/rick42600/TIL/blob/main/webprogramming/imagetag.md)
+- [다른 이미지태그`<srcset>,<picture>,<source>`](https://github.com/rick42600/TIL/blob/main/webprogramming/imagetag2.md)
 - [표태그`<table>`](https://github.com/rick42600/TIL/blob/main/webprogramming/tabletag.md)
 
 
