@@ -65,4 +65,41 @@
  </tfoot>
 </table>
 ```
-## 
+## 표 테두리를 위한 CSS
+- 따로 CSS파일에 연결하기 전에는 `</head>`앞에 추가한다
+```html
+<style>
+ table, th, td {
+   border: 1px solid #ccc; <!--테두리--> 
+  }
+  th, td {
+   padding: 10px; <!--셀의 안 여백-->  
+   text-align: center; <!--텍스트 가운데 정렬-->  
+  }
+  th {
+   background-color: #eee; <!--제목 셀 배경색-->  
+ }
+</style>
+
+```
+
+## 표 편집하기
+- 행은 `<tr>`태그를 사용하고, 셀은 `<td>`태그를 사용하지만, 열 전체를 나타내는 태그는 없기 때문에 별도의 태그가 필요하다
+### `<col>,<colgroup>` 열끼리 묶어서 스타일을 지정하는 방법
+- `<col>` 태그 : 한 열에 있는 모든 셀에 같은 스타일을 적용하려고 할 때 사용한다. ※닫는태그 없음
+- `<colgroup>` 태그: 여려개의 열을 묶을 수 있고 태그 안에 묶는 열의 개수 만큼 `<col>`태그 사용. ※닫는태그 있음
+- `<col>` 태그와 `<colgroup>`태크는 `<caption>` 태그 뒤에, `<tr>,<td>` 태그 전에 사용해야 함
+- `<colgroup>` 태그 안에 있는`<col>` 태그를 비롯해 단독으로 사용한`<col>`태그의 개수와 표의 열의 개수가 같아야 함
+```html
+  <table border="1">
+    <caption>표 편집하기</caption>
+    <col style="background-color:red;"> <!--첫번쨰 열-->
+    <colgroup style="background-color:#f0ffff"> <!--두번째 부터 순서대로 묶음-->
+      <col width="40px"><!--2-->
+      <col width="80px"><!--3-->
+      <col width="120px"><!--4-->
+    </colgroup>
+    <thead>
+     ……
+ </table>
+```
