@@ -110,24 +110,28 @@
 - 기본형 
   * `<td rowspan="합칠 셀의 개수">셀의 내용</td>`
   * `<td colspan="합칠 셀의 개수">셀의 내용</td>`
+  
 <img src="../image/tableedit2.png" alt="표편집이미지colspan" >
+
 ```html
 <thead>
-  <tr>
-    <td>안녕</td>
-    <td>안녕</td>
-    <td>안녕</td>
-    <td>안녕</td>
-    </tr>
+ <tr>
+   <td>안녕</td>
+   <td>안녕</td>
+   <td>안녕</td>
+   <td>안녕</td>
+   </tr>
 </thead>
-  <tbody>
-    <tr>
-      <td colspan="4">안녕</td>
-    </tr>
+<tbody>
+ <tr>
+  <td colspan="4">안녕하세요</td>
+ </tr>
    ......
-  </tbody>       
+</tbody>       
 ```
+
 <img src="../image/tableedit3.png" alt="표편집이미지rowspan" >
+
 ```html
  <thead>
   <tr>
