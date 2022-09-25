@@ -38,7 +38,9 @@
 ```
 예시)
 ```html
+<body>
   <a id="top"></a>
   <object data="medias/product.pdf" type="application/pdf" width="900" height="800" ></object><!--pdf삽입-->
   <a href="#top">[맨위로]</a>
+</body>
 ```
