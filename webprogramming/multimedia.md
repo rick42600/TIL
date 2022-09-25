@@ -70,3 +70,28 @@
 <video src="medias/salad.mp4" width="700" controls></video>
 ```
 <img src="../image/audiotag.png" alt="오디오비디오태그표">
+
+## 포스터 이미지 사용(썸네일)
+- 포스터 이미지: 비디오를 재생하기 전에 화면에 표시 되는 이미지(썸네일)
+
+```html
+<video src="media/dog.mp4" width="700" controls poster="image/bordercollie.jpg"></video>
+```
+
+## `<iframe>` 태그
+- inline frame 의 줄임말
+- 웹 문서 안에 다른 외부 문서 삽입
+- 문서의 소스를 보이지 않게 할때 사용한다
+
+```html
+<iframe src="문서나 사이트 경로" [속성]></iframe>
+```
+
+예시)
+
+```html
+  <iframe width="560" height="315"
+  src="https://youtube.com/embed/XuhmrUwSKbA" title="YouTube video player"
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+  gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
