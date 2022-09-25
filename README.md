@@ -14,7 +14,7 @@
 - [이미지태그`<img>`](https://github.com/rick42600/TIL/blob/main/webprogramming/imagetag.md)
 - [최신 이미지태그`<srcset>,<picture>,<source>`](https://github.com/rick42600/TIL/blob/main/webprogramming/imagetag2.md)
 - [표태그`<table>`](https://github.com/rick42600/TIL/blob/main/webprogramming/tabletag.md)
-- [멀티미디어](https://github.com/rick42600/TIL/blob/main/webprogramming/mutimedia.md)
+- [멀티미디어](https://github.com/rick42600/TIL/blob/main/webprogramming/multimedia.md)
 - [하이퍼링크`<a>`](https://github.com/rick42600/TIL/blob/main/webprogramming/hyperlink.md)
 
 
