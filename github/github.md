@@ -114,6 +114,8 @@ git merge 브랜치명
 doyoon@DESKTOP-O58U3V6 MINGW64 ~/experiment/TIL (B)
 $ git merge A
 ```
+<img src="../image/gitmerge.png" alt="gitmergeimg">
+
 
 - 로컬 저장소에서 원격 저장소로 동기화
 
