@@ -78,3 +78,10 @@ git checkout 브랜치명
 ```
 git merge 브랜치명
 ```
+
+- 로컬 저장소에서 원격 저장소로 동기화
+```
+git push 저장소 브랜치
+예) git push origin main
+```
+
