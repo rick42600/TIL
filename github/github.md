@@ -92,11 +92,15 @@ git checkout -b 브랜치명
 git branch 브랜치명
 ```
 
-5. 브랜치로 이동하기(체크아웃)
+- 브랜치로 이동하기(체크아웃)
 
 ```
 git checkout 브랜치명
 ```
+
+- 주의!!! : 새로운 branch를 만들때는 꼭!! master에 checkout 되어있는지 확인하고 만들어야한다!!!
+
+<img src="../image/gitmerge.png" alt="gitmergeimg">
 
 - 브랜치 병합
 
@@ -114,8 +118,6 @@ git merge 브랜치명
 doyoon@DESKTOP-O58U3V6 MINGW64 ~/experiment/TIL (B)
 $ git merge A
 ```
-<img src="../image/gitmerge.png" alt="gitmergeimg">
-
 
 - 로컬 저장소에서 원격 저장소로 동기화
 
