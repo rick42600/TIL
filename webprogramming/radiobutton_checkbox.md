@@ -70,4 +70,4 @@
   ```html
   <button type="button">내용</button>
   ```
-  ※<button> 태그로전송(submit) 기능을만들때반드시submit을사용해야하는것은아님. 사이트마다다양하게사용됨.
+  ※ <button> 태그로전송(submit) 기능을만들때반드시submit을사용해야하는것은아님. 사이트마다다양하게사용됨.
