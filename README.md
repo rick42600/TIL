@@ -23,3 +23,4 @@
 - [폼`<form>`](https://github.com/rick42600/TIL/blob/main/webprogramming/form.md)
 - [디스플레이`display`](https://github.com/rick42600/TIL/blob/main/webprogramming/display.md)
 - [라디오버튼과 체크박스](https://github.com/rick42600/TIL/blob/main/webprogramming/radiobutton_checkbox.md)
+- [`<input>`태그의 속성](https://github.com/rick42600/TIL/blob/main/webprogramming/inputtagvalue.md)
