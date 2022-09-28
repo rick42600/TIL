@@ -22,4 +22,4 @@
 - [하이퍼링크`<a>`](https://github.com/rick42600/TIL/blob/main/webprogramming/hyperlink.md)
 - [폼`<form>`](https://github.com/rick42600/TIL/blob/main/webprogramming/form.md)
 - [디스플레이`display`](https://github.com/rick42600/TIL/blob/main/webprogramming/display.md)
-- [라디오버튼과 체크박스](https://github.com/rick42600/TIL/blob/main/webprogramming/radiobuttion_checkbox.md)
+- [라디오버튼과 체크박스](https://github.com/rick42600/TIL/blob/main/webprogramming/radiobutton_checkbox.md)
