@@ -47,14 +47,14 @@
   <input type="button" value="내용" />
   ```
 
-## '<button>' 태그
+## `<button>` 태그
 
-- '<input>' 태그에서 type="submit", type="reset", type="button" 을 사용해서 버튼을 삽입하는 것은 HTML 초기부터 있었던 기능
-- HTML5 부터 '<button>'태그 도입
+- `<input>` 태그에서 type="submit", type="reset", type="button" 을 사용해서 버튼을 삽입하는 것은 HTML 초기부터 있었던 기능
+- HTML5 부터 `<button>`태그 도입
 - 태그만 보고 '버튼' 이라는 사실을 알 수 있음(시맨틱 태그)
-- 단순히 폼의 버튼 뿐만 아니라, 웹 문서 어디에서든 눌러야 할 부분에는 '<button>' 태그를 사용할 수 있다
+- 단순히 폼의 버튼 뿐만 아니라, 웹 문서 어디에서든 눌러야 할 부분에는 `<button>` 태그를 사용할 수 있다
 
-- 폼에서 '<button>' 태그 사용
+- 폼에서 `<button>` 태그 사용
   - 폼 전송 버튼
   - 기본형
   ```html
@@ -70,4 +70,5 @@
   ```html
   <button type="button">내용</button>
   ```
+
 #### `<button>` 태그로 전송(submit) 기능을 만들때 반드시 submit을 사용해야 하는 것 은 아님. 사이트 마다 다양하게 사용됨.
