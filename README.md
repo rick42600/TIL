@@ -26,3 +26,4 @@
 - [`<input>`태그의 속성](https://github.com/rick42600/TIL/blob/main/webprogramming/inputtagvalue.md)
 - [텍스트 속성과 목록](https://github.com/rick42600/TIL/blob/main/webprogramming/textarealist.md)
 - [스타일css](https://github.com/rick42600/TIL/blob/main/webprogramming/stylesheet.md)
+- [css selector](https://github.com/rick42600/TIL/blob/main/webprogramming/cssselector.md)
