@@ -126,6 +126,7 @@ p {
   </style>
   ```
   <img src="../image/liststyle.png" alt="liststyle">
+  
   - 불릿을 없애는 방법 
   ```css
   ul{list-style :none;}
