@@ -71,7 +71,7 @@
   ```
 
 5. `<style>` 안에 class 적용하고 웹에 있는 font-family 적용
-   <img src="../image/fontname" alt="fontname">
+   <img src="../image/fontname.png" alt="fontname">
 
 ```html
 <style>
@@ -88,7 +88,7 @@
   - 특수한 형태의 웹 폰트형식이나 SVG형식
   - 텍스트 형식이기 때문에 글자 크기나 색상을 조절하는 것처럼 사용가능
 - 가장 많이 사용하는 아이콘 서비스가 : Font Awesome[https://fontawesome.com/](https://fontawesome.com/)
-  <img src="../image/fontawsome.png" alt="fontawsome">
+  <img src="../image/fontawesome.png" alt="fontawsome">
   ```html
   <p>
     <i class="fa-brands fa-instagram"></i>
