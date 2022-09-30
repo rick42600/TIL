@@ -41,14 +41,17 @@
 
 - 공통부분
   1. [https://fonts.google.com/](https://fonts.google.com/) 접속
-  2. 원하는 폰트 검색
-     <img src="../image/font1.png" alt="웹폰트사용1">
-     <img src="../image/font2.png" alt="웹폰트사용2">
+  2. 원하는 폰트 검색  
+  
+  
+     <img src="../image/font1.png" alt="웹폰트사용1" width="50%">
+     <img src="../image/font2.png" alt="웹폰트사용2" width="50%">
   3. 클래스 이름 적용
   ```html
   <h1 class="font1">HELLO</h1>
   ```
-  4. 1. `<link>` 사용
+  4. 1. `<link>` 사용  
+  
         <img src="../image/fontlink.png" alt="fontlink">
   - `<link>` 를 선택하고 블럭 한 부분을 복사 -> </head> 앞에 넣는다
   ```html
@@ -62,7 +65,8 @@
   </head>
   ```
 
-4. 2. css 사용
+4. 2. css 사용  
+
       <img src="../image/fontcss.png" alt="fontcss">
 
 - @import 를 선택하고 블럭 한 부분을 복사 -> css 내용 맨 위에 붙여 넣는다
@@ -70,7 +74,8 @@
   @import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
   ```
 
-5. `<style>` 안에 class 적용하고 웹에 있는 font-family 적용
+5. `<style>` 안에 class 적용하고 웹에 있는 font-family 적용  
+
    <img src="../image/fontname.png" alt="fontname">
 
 ```html
@@ -87,8 +92,8 @@
 - 최근에는 직접 아이콘을 만들지 않고 웹에 올라와 있는 아이콘을 링크해서 사용한다
   - 특수한 형태의 웹 폰트형식이나 SVG형식
   - 텍스트 형식이기 때문에 글자 크기나 색상을 조절하는 것처럼 사용가능
-- 가장 많이 사용하는 아이콘 서비스가 : Font Awesome[https://fontawesome.com/](https://fontawesome.com/)
-  <img src="../image/fontawesome.png" alt="fontawsome">
+- 가장 많이 사용하는 아이콘 서비스가 : Font Awesome [https://fontawesome.com/](https://fontawesome.com/)
+  <img src="../image/fontawesome.png" alt="fontawsome" width="50%">
   ```html
   <p>
     <i class="fa-brands fa-instagram"></i>
