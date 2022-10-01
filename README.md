@@ -30,3 +30,5 @@
 - [textstyle](https://github.com/rick42600/TIL/blob/main/webprogramming/textstyle.md)
 - [textstyle속성](https://github.com/rick42600/TIL/blob/main/webprogramming/textvalue.md)
 - [CSS & Box model](https://github.com/rick42600/TIL/blob/main/webprogramming/boxmodel.md)
+- [background 배경스타일](https://github.com/rick42600/TIL/blob/main/webprogramming/background.md)
+- [Gradation 그라데이션](https://github.com/rick42600/TIL/blob/main/webprogramming/gradation.md)
