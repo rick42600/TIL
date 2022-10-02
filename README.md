@@ -27,6 +27,7 @@
 - [텍스트 영역과 목록](https://github.com/rick42600/TIL/blob/main/webprogramming/textarealist.md)
 - [스타일css](https://github.com/rick42600/TIL/blob/main/webprogramming/stylesheet.md)
 - [css selector](https://github.com/rick42600/TIL/blob/main/webprogramming/cssselector.md)
+- [css selector2](https://github.com/rick42600/TIL/blob/main/webprogramming/cssselector2.md)
 - [textstyle](https://github.com/rick42600/TIL/blob/main/webprogramming/textstyle.md)
 - [textstyle속성](https://github.com/rick42600/TIL/blob/main/webprogramming/textvalue.md)
 - [CSS & Box model](https://github.com/rick42600/TIL/blob/main/webprogramming/boxmodel.md)
