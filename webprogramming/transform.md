@@ -9,11 +9,11 @@
   - x축으로 오른쪽으로 갈 수록, y축은 아래로 갈 수록 값이 커짐
   - 크기나 각도만 지정하면 됨
   - 2차원 좌표 사용  
-    <img src="../image/2dimension.png" alt="2차원 변형함수">
+    <img src="../image/2dimension.png" alt="2차원 변형함수" width="70%">
 - 3차원 변형
   - x축과 y축에 원근감 추가
   - z축은 앞뒤로 이동, 보는 사람 쪽으로 다가올 수록 값이 커짐  
-    <img src="../image/3dimension.png" alt="3차원 변형함수">
+    <img src="../image/3dimension.png" alt="3차원 변형함수"  width="70%">
 
 ## translate
 
