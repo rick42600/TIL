@@ -1,6 +1,6 @@
 ## css animation
 
-<img src="../image/animation.png" alt="animation image">
+<img src="../image/animation.png" alt="animation image" width="70%">
 
 ## @keyframes
 
@@ -76,13 +76,13 @@
 
 - 애니메이션 시작과 중간 끝에서의 속도 지정
 
-<img src="../image/anitiming.png" alt="animation timing function image">
+  <img src="../image/anitiming.png" alt="animation timing function image">
 
 ## animation-direction
 
 - 애니메이션은 원래 keyframes에서 정의한 from 에서 to 순서로 진행하는데, animation-direction 속성을 사용해 **진행방향을 바꿀 수 있다**
 
-<img src="../image/anidirection.png" alt="animation direction image">
+  <img src="../image/anidirection.png" alt="animation direction image">
 
 ## animation
 
