@@ -70,7 +70,7 @@
 
 - 실제 사이트에서 media queries 확인하기
 
-  - F12(Windows), Option + Command + I (맥) 클릭
+  - F12(Windows), Option + Command + I (MAC) 클릭
   - 크롬 웹 개발자 도구 창의 왼쪽 위에 있는<img src="../image/deviceicon.png" alt="devicon img"> 버튼 클릭
   - 설정버튼 클릭  
     <img src="../image/mediaq.png" alt="media q img">
