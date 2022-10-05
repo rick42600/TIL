@@ -94,7 +94,8 @@
 - 화면을 여러개의 column으로 나누어, 필요할 때마다 column들을 묶어 배치하는 방법
 - 화면 너비 값에 따라 '960 grid system','1200 grid system' 등으로 나뉜다
 - column 개수에 따라 '12 column grid system', '16 column grid system', '24column grid system' 등올 나뉜다
-- 주로 960 픽셀 12 칼럼의 그리드 시스템
+- 주로 960 픽셀 12 칼럼의 그리드 시스템  
+
   <img src="../image/grid.png" alt="grid img">
 
   ## How to make Fluid Grid Layout
