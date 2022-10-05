@@ -35,3 +35,5 @@
 - [Gradation 그라데이션](https://github.com/rick42600/TIL/blob/main/webprogramming/gradation.md)
 - [Transform 트랜스폼](https://github.com/rick42600/TIL/blob/main/webprogramming/transform.md)
 - [Animation 애니메이션](https://github.com/rick42600/TIL/blob/main/webprogramming/animation.md)
+- [Responsive Web 반응형 웹](https://github.com/rick42600/TIL/blob/main/webprogramming/responsive.md)
+- [Media queries 미디어 쿼리](https://github.com/rick42600/TIL/blob/main/webprogramming/mediaqueries.md)
