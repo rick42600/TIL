@@ -62,10 +62,9 @@
   }
   ```
 
-## 3차원 rotate
-
-<img src="3dimrotate.png" alt="3차원 rotate img">
-- perspective 속성
+## 3차원 rotate  
+- perspective 속성  
+  <img src="../image/3dimrotate.png" alt="3차원 rotate img">
   - 원근감을 표현하기 위해 사용하는 속성
   - 원래 있던 위치에서 사용자가 있는 쪽으로 얼마나 이동하는지 나타냄
   - 값(px)은 0 보다 커야하면 값이 클수록 사용자로부터 멀어짐
@@ -80,13 +79,13 @@
 ## transition
 
 - 웹의 스타일 속성이 조금씩 자연스럽게 바뀌는 액션
-  <img src="transition.png" alt="transition img">
+  <img src="../image/transition.png" alt="transition img">
 
 ## transition-property
 
 - 트랜지션을 적용한 속성 선택(크기,색상...etc)
 - 이 속성을 지정하지 않으면 모든 속성이 트랜지션 대상이 된다  
-  <img src="transitionprop.png" alt="transition-property img">
+  <img src="../image/transitionprop.png" alt="transition-property img">
 
 ```css
 .box {
@@ -106,7 +105,7 @@
 ## transition-timin-function
 
 - 트랜지션의 시작과 중간, 끝에서의 속도 지정  
-  <img src="transitiontime.png" alt="transition-timing-function img">
+  <img src="../image/transitiontime.png" alt="transition-timing-function img">
 
 ## transition-delay
 
@@ -119,7 +118,7 @@
 - 트랜지션 관련 속성을 한꺼번에 지정
 - 속성 값을 작성 하는 순서는 상관이 없음
 - 시간 값 속성이 2개이므로, 앞에 오는 시간 값은 transition-duration, 뒤에 오는 시간 값은transition-delay 속성으로간주  
-  <img src="transition1.png" alt="transition all img">
+  <img src="../image/transition1.png" alt="transition all img">
 
 ## opacity, overflow
 
