@@ -22,7 +22,7 @@
   - 예전 브라우저 버전과 호환성
   - 사이트 디자인이 상대적으로 단순하다
 - 웹사이트에서 확인 가능하다
-  - F12(Windows), Option + Command + I (맥) 클릭
+  - F12(Windows), Option + Command + I (MAC) 클릭
   - 크롬 웹 개발자 도구 창의 왼쪽 위에 있는<img src="../image/deviceicon.png" alt="devicon img"> 버튼 클릭
   - 직접 화면 조절해보기  
     <img src="../image/adjscreen.png" alt="adjscreen img">
@@ -35,7 +35,7 @@
   - Apply different css file for each devices access web
   - Can show different layout for each devices
   - Included in css3 standard regulation.
-- Bootstrap [getbootstrap.com](getbootstrap.com)
+- Bootstrap [getbootstrap.com](Http://getbootstrap.com)
   - Most popular css framework, which provide responsive grid system, variable component, JavaScript ..etc.
   - Bootstrap can use many plugins, have potential for expand skills
 
