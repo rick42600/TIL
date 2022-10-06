@@ -77,7 +77,8 @@
 
 ## justify-content
 
-- flex 항목을 주축 방향을 배치할 때의 배치 기준
+- flex 항목을 주축 방향을 배치할 때의 배치 기준  
+
   <img src="../image/justify.png" alt="justify img">
 
 ## flex 항목에서 margin 활용하기
