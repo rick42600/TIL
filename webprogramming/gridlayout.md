@@ -1,0 +1,95 @@
+## css grid layout
+
+- Flexbox layout은 주축/교차축 개념이 있지만 css grid layout 은 양쪽 방향 모두 사용한다
+- row, column으로 화면을 구성하고, 줄 사이의 여백, 칼럼사이의 여백을 조절한다  
+  <img src="../image/gridlay.png" alt="grid layout img">
+- css grid layout 예시 사이트 [https://www.w3.org/TR/css grid 1](https://www.w3.org/TR/css grid 1)
+
+## display
+
+- css grid layout을 사용하기 위해 부모 요소를 grid container로 지정한다
+  - grid : container안의 항목을 블록 레벨 요소로 배치합니다
+  - inline-grid : container안의 항목을 인라인 레벨 요소로 배치합니다
+  - grid-template-columns : grid container 안의 칼럼 개수와 너빗값
+  - grid-template-rows : grid container안의 줄 개수와 너빗값
+
+## fr
+
+- 상대적인 크기를 지정하는 fr 단위
+- column/row 의 크기를 지정할 때 px 단위는 적합하지 않다
+- ex) 너비의 비율이 2:1:2인 칼럼을 3개 배치하고 싶다면
+  ```css
+  #container {
+    gird-template-columns: 2fr 1fr 2fr;
+  }
+  ```
+
+## repeat
+
+- 똑같은 값을 여러 번 반복한다면 내장 함수 repeat()함수 사용
+- ex)
+
+```css
+#container{
+  display:grid;
+  grid-template-columns: repeat(5, 1 fr);
+  grid-template-rows:100px;
+}
+……
+```
+
+- minmax() :높이가 고정되어있어서 그 길이를 넘는 내용은 보이지 않는다
+  - minmax() 함수를 사용해서 최소, 최댓값을 지정한다
+  - minmax(최솟값,최댓값)
+
+## grid-template
+
+- grid-template-rows와 grid-template-columns를 한꺼번에 지정한다
+- / 를 기준으로 왼쪽에는 rows,오른쪽에는 colums값을 지정한다
+- ex)
+
+```css
+#container{
+  grid-template-colums:repeat(3, 1fr)
+  grid-template-rows:minmax(100px, auto)
+}
+```
+
+```css
+#container {
+  grid-template: minmax(100px, auto) / repeat(3, 1fr);
+}
+```
+
+## auto-fill, auto-fit
+
+- 브라우저 창의 너비가 달라질 때 칼럼 너비를 어떻게 조절할지 지정한다
+- auto-fill : 남는 공간 없이 꽉 채우기
+- auto-fit : 칼럼의 최소 너비까지만 표시하고 남는 공간은 그대로 둔다
+- ex)
+
+```css
+#container {
+  grid-template-columns: repeat(auto-fit, 200px);
+}
+```
+
+## grid 항목 간격 조절
+
+- column-gap : column과 column 사이의 간격 조절
+- row-gap : row와 row 사이의 간격 조절
+- gap : column과 row 사이의 간격을 한꺼번에 조절
+- ex)
+
+```css
+#container {
+  row-gap: 20px;
+  column-gap: 30px;
+  gap: 20px 30px;
+}
+```
+
+## grid line을 사용해 layout 만들기
+
+- css grid layout에는 눈에 보이지 않는 grid line이 포함 되어있다
+- grid line을 사용해 grid 항목을 배치할 수 있다
