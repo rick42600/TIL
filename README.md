@@ -39,4 +39,4 @@
 - [Responsive Image 반응형 이미지](https://github.com/rick42600/TIL/blob/main/webprogramming/responsiveimg.md)
 - [Media queries 미디어 쿼리](https://github.com/rick42600/TIL/blob/main/webprogramming/mediaqueries.md)
 - [Flexbox 플렉스 박스](https://github.com/rick42600/TIL/blob/main/webprogramming/flexbox.md)
-- [css grid layour 그리드 레이아웃](https://github.com/rick42600/TIL/blob/main/webprogramming/gridlayout.md)
+- [css grid layout 그리드 레이아웃](https://github.com/rick42600/TIL/blob/main/webprogramming/gridlayout.md)
