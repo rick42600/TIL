@@ -3,7 +3,7 @@
 - Flexbox layout은 주축/교차축 개념이 있지만 css grid layout 은 양쪽 방향 모두 사용한다
 - row, column으로 화면을 구성하고, 줄 사이의 여백, 칼럼사이의 여백을 조절한다  
   <img src="../image/gridlay.png" alt="grid layout img">
-- css grid layout 예시 사이트 [https://www.w3.org/TR/css grid 1](https://www.w3.org/TR/css grid 1)
+- css grid layout 예시 사이트 [https://www.w3.org/TR/css-grid-1/](https://www.w3.org/TR/css-grid-1/)
 
 ## display
 
@@ -18,10 +18,11 @@
 - 상대적인 크기를 지정하는 fr 단위
 - column/row 의 크기를 지정할 때 px 단위는 적합하지 않다
 - ex) 너비의 비율이 2:1:2인 칼럼을 3개 배치하고 싶다면
+
   ```css
-  #container {
-    gird-template-columns: 2fr 1fr 2fr;
-  }
+    #container {
+      gird-template-columns: 2fr 1fr 2fr;
+    }
   ```
 
 ## repeat
@@ -92,4 +93,61 @@
 ## grid line을 사용해 layout 만들기
 
 - css grid layout에는 눈에 보이지 않는 grid line이 포함 되어있다
-- grid line을 사용해 grid 항목을 배치할 수 있다
+- grid line을 사용해 grid 항목을 배치할 수 있다  
+  <img src="../image/gridline.png" alt="gridline layout img">
+- column-start 또는 row-start 보다 작은 값을 column-end, row-end에 쓸 수 있다. 오른쪽에서 왼쪽으로 , 아래에서 위로 적용
+
+## 여러가지 방식으로 레이아웃 만들어보기
+
+- 이런 레이아웃은 어떻게 만들어야 할까  
+  <img src="../image/layoutex.png" alt="layout example image" width="50%"> 
+
+- box1 ~ box4 영역까지 감싸고 있는 부모 요소를 grid layout container로 지정하고
+- column 은 1fr씩 3개
+- 줄 height은 minmax(3,100px)로 지정  
+  <img src="../image/gridlayout.png" alt="grid layout image">
+  - box1 : column line 1 ~ 4
+  - box2 : column line 1 ~ 2, row line 2 ~ 4
+  - box3 : column line 2 ~ 4
+  - box4 : column line 3 ~ 4
+
+```html
+<div id="container">
+  <div class="box box1">box1</div>
+  <div class="box box2">box2</div>
+  <div class="box box3">box3</div>
+  <div class="box box4">box4</div>
+</div>
+```
+
+```css
+.box1 {
+  background-color:#3689ff;
+  grid-column:1/4;
+}
+.box2 {
+  background-color:#00cf12;
+  grid-row:2/4;
+  grid-column start:1;
+}
+.box3 {
+  background-color:#ff9019;
+  grid-column:2/4;
+  grid-row start:2;
+}
+.box4 {
+  background-color:#ffd000;
+  grid-column start:3;
+  grid-row start:3;
+}
+```
+
+- span
+시작 번호/끝 번호 대신 span 과 함께 셀 몇개를 차지하는지 개수를 지정할 수 있다
+
+```css
+.box1 {
+  background-color:#3689ff;
+  grid-column:1 / span 3;
+}
+```
