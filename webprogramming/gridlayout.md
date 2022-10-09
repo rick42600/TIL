@@ -198,3 +198,7 @@
   - 주축의 영역이 부족하면 교차축을 따라 다음 줄로 넘어간다(wrap) 즉, 모든 줄의 저비가 같지 않을 수 있다
 - css grid layout
   - Row and column 양쪽을 모두 맞출 수 있기 때문에 깔끔하게 정돈할 수 있다  
+
+## CSS grid layout 연습하는 게임 사이트
+- Grid Garden [https://cssgridgarden.com/#ko](https://cssgridgarden.com/#ko)  
+   <img src="../image/gridgarden.png" alt="grid garden image"> 
