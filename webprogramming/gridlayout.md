@@ -142,12 +142,59 @@
 }
 ```
 
-- span
-시작 번호/끝 번호 대신 span 과 함께 셀 몇개를 차지하는지 개수를 지정할 수 있다
+## span
+
+- 시작 번호/끝 번호 대신 span 과 함께 셀 몇개를 차지하는지 개수를 지정할 수 있다
 
 ```css
 .box1 {
   background-color:#3689ff;
   grid-column:1 / span 3;
 }
+.box2 {
+  background-color:#00cf12;
+  grid-row:2 / span 2;
+  grid-column-start :1;
+}
+.box3 {
+  background-color:#ff9019;
+  grid-column:2 / span 2;
+  grid-row-start:2;
+}
+.box4 {
+  background-color:#ffd000; 
+  grid-column-start:3;
+  grid-row-start:3;
+}
 ```
+
+## grid-area 
+
+- grid-area : n1/n2/n3/n4 처럼 grid-area 속성에 4개의 숫자를 지정하면 순서대로 grid-row-start/grid-column-start/grid-row-end/grid-column-end를 나타낸다
+
+```css
+.box2{
+  background-color:#00cf12;
+  grid-row:2 / span 2;
+  grid-column-start :1;
+}
+.box2{
+  background-color:#00cf12;
+  grid-area:2/1/4/2
+}
+```
+
+## 탬플릿 영역을 사용해서 layout 만들기
+
+- gridline은 시작 번호와 끝 번호를 일일이 지정해서 layout을 만들어야 하지만 탬플릿 영역은 좀 더 편리하다  
+  <img src="../image/template.png" alt="template image">
+
+## flexbox 와 css gridlayout의 차이  
+  
+  <img src="../image/flexboxgrid.png" alt="flexbox gridlayout image">
+
+- 두 가지를 함께 사용도 가능하다
+- flexbox layout
+  - 주축의 영역이 부족하면 교차축을 따라 다음 줄로 넘어간다(wrap) 즉, 모든 줄의 저비가 같지 않을 수 있다
+- css grid layout
+  - Row and column 양쪽을 모두 맞출 수 있기 때문에 깔끔하게 정돈할 수 있다  
