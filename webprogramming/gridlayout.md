@@ -201,4 +201,4 @@
 
 ## CSS grid layout 연습하는 게임 사이트
 - Grid Garden [https://cssgridgarden.com/#ko](https://cssgridgarden.com/#ko)  
-   <img src="../image/gridgarden.png" alt="grid garden image"> 
+   <img src="../image/gridgarden.png" alt="grid garden image" width="50%"> 
