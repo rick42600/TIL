@@ -1,2 +1,1 @@
-<img src="../imagerpa/finalproject/slide1" alt="dd">
-```
+<img src="../imagerpa/finalproject/slide1.jpg" alt="1" width="50%">
