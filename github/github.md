@@ -122,8 +122,12 @@ git push 저장소 브랜치
 
 - Git Tutorial
   - 참고사이트 [https://violet-bora-lee.github.io/git-tutorial/](https://violet-bora-lee.github.io/git-tutorial/)
-
-##git push 할때 reject(거절) 된경우
+  - git 연습사이트[https://learngitbranching.js.org/?locale=ko](https://learngitbranching.js.org/?locale=ko)
+  
+## HEAD
+- 현재 checkout 되어있는 branch의 가장 최신 commit
+- 
+## git push 할때 reject(거절) 된경우
 - 먼저git pull 해서 원격 저장소의 특정 브랜치에 있는 커밋들을 다
  로컬 저장소의 특정 브랜치를 반영 한 다음 push 하면 reject 해결
  
@@ -133,3 +137,12 @@ git push 저장소 브랜치
 
 ## git push시 내부에서 일어나는 일
 - git push origin main을 하면(현재 main branch를 checkout), 로컬 저장소에 있는 main branch에 있는 모든 commit이 원격 저장소에 있는 main branch 로 병합이 되는데, 이때 방식이 fast-forward
+
+## git reset
+- commit을 취소 하고 싶을때 사용한다
+- git reset HEAD^ --hard : 하면 가장 최근에 한 commit을 취소한다
+
+## reset으로 취소한 commit을 복구하고 싶다면
+- git reflog 로 commit 리스트를 확인하고 원하는 commit id(예:dad7299)를 확인한다
+- git cherry-pick commit id
+- 예: git cherry-pick dad7299
