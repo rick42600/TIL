@@ -125,5 +125,6 @@ git push 저장소 브랜치
 
 - Git test on local
 
-
-
+## git merge
+- 3-way merge
+- fast-forward merge
