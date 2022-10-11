@@ -6,7 +6,8 @@
 
 - [GitHub사용법](https://github.com/rick42600/TIL/blob/main/github/github.md)
 
-## RPA
+## RPA Project
+- [REFramework_재정통계자료](https://github.com/rick42600/TIL/blob/main/RPA/project.md)
 
 ## web programming
 
