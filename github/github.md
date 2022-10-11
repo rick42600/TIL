@@ -128,3 +128,6 @@ git push 저장소 브랜치
 ## git merge
 - 3-way merge
 - fast-forward merge
+
+## git push시 내부에서 일어나는 일
+- git push origin main을 하면(현재 main branch를 checkout), 로컬 저장소에 있는 main branch에 있는 모든 commit이 원격 저장소에 있는 main branch 로 병합이 되는데, 이때 방식이 fast-forward
