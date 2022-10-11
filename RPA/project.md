@@ -1,1 +1,1 @@
-<img src="../imagerpa/finalproject/slide1.jpg" alt="1" width="50%">
+<img src="../imagerpa/finalproject/slide1.JPG" alt="1" width="70%">
