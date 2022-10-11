@@ -121,4 +121,4 @@ git push 저장소 브랜치
 ```
 
 - Git Tutorial
-  -   [https://violet-bora-lee.github.io/git-tutorial/](https://violet-bora-lee.github.io/git-tutorial/)
+  - 참고사이트 [https://violet-bora-lee.github.io/git-tutorial/](https://violet-bora-lee.github.io/git-tutorial/)
