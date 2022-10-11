@@ -123,7 +123,6 @@ git push 저장소 브랜치
 - Git Tutorial
   - 참고사이트 [https://violet-bora-lee.github.io/git-tutorial/](https://violet-bora-lee.github.io/git-tutorial/)
 
-<<<<<<< HEAD
 - Git test on local
 
 
