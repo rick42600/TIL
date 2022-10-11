@@ -123,8 +123,10 @@ git push 저장소 브랜치
 - Git Tutorial
   - 참고사이트 [https://violet-bora-lee.github.io/git-tutorial/](https://violet-bora-lee.github.io/git-tutorial/)
 
-- Git test on local
-
+##git push 할때 reject(거절) 된경우
+- 먼저git pull 해서 원격 저장소의 특정 브랜치에 있는 커밋들을 다
+ 로컬 저장소의 특정 브랜치를 반영 한 다음 push 하면 reject 해결
+ 
 ## git merge
 - 3-way merge
 - fast-forward merge
