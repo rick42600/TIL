@@ -146,3 +146,16 @@ git push 저장소 브랜치
 - git reflog 로 commit 리스트를 확인하고 원하는 commit id(예:dad7299)를 확인한다
 - git cherry-pick commit id
 - 예: git cherry-pick dad7299
+
+## git revert
+- 과거에 한 commit 중 지우고 싶은 commit이 있을 때
+- git revert dad7299 
+- commit을 새로 하나 만드는데 이는 현재 상태에서 dad7299 commit을 삭제한 commit 이다
+- 이는 공동으로 사용하는 branch에서는 이력을 함부로 바꾸면 혼란을 초래하기 때문에 사용한다
+
+## git rebase
+- A 라는 branch에 checkout 된 상태에서 
+- git rebase main 을 사용하면
+- A의 commit 들이 main의 끝으로 이동한다
+- rebase를 사용하면 ID가 변경 된다
+- rebase를 하면 기존 commit과 동일한 내용을 담은 '새로운 commit'들이 이동하고 기존 commit들은 그자리에 남아있다. 따라서 다른 사람에게 공유된 commit이 들어있는 브랜치를 rebase 하면 안된다
