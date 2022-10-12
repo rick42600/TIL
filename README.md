@@ -8,7 +8,7 @@
 
 ## RPA 
 
-- [UIPath사용법](https://github.com/rick42600/TIL/blob/main/RPA/rpastart.md)
+
 
 
 ## RPA Project
