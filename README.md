@@ -16,7 +16,9 @@
 - [REFramework_재정통계자료](https://github.com/rick42600/TIL/blob/main/RPA/project.md)
 
 ## web programming
-   *고경희 강사님 html 수업 정리*
+
+   *고경희 강사님 html,css 수업 정리*
+
 - [웹문서만들기 기초](https://github.com/rick42600/TIL/blob/main/webprogramming/makewebdoc.md)
 - [줄바꿈태그`<br>`](https://github.com/rick42600/TIL/blob/main/webprogramming/brtag.md)
 - [내부스타일시트](https://github.com/rick42600/TIL/blob/main/webprogramming/innerstylesheet.md)
@@ -51,4 +53,7 @@
 - [[실습] ↑ 이것들을 활용해서 간단한 웹사이트 만들어보기](https://github.com/rick42600/TIL/blob/main/webprogramming/mkwebsite.md)
 
 ## JavaScript
+
+   *고경희 강사님 JavaScript 수업 정리*
+
 - [JavaScript 기초](https://github.com/rick42600/TIL/blob/main/webprogramming/jsstart.md)
