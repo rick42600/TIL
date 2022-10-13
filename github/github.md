@@ -45,9 +45,9 @@
 
 #### 버전 관리 시스템을 사용하는 이유
 
-1.  실행 취소, 재 실행이 가능함
-2.  버전간 소스코드 비교가 가능함
-3.  협업이 쉬워짐
+1. 실행 취소, 재 실행이 가능함
+2. 버전간 소스코드 비교가 가능함
+3. 협업이 쉬워짐
 
 #### 다양한 버전관리 방법
 
@@ -60,9 +60,8 @@
 
 #### 커밋 이력보기
 
-```
-git log
-```
+- git log
+
 
 -`q` 입력시 나올 수 있음
 
@@ -76,19 +75,19 @@ git log
 
 - 브랜치 생성과 브랜치로 이동 동시에 하기(브랜치 생성 + 브랜치로 이동(체크아웃))
 
-```
+```git
 git checkout -b 브랜치명
 ```
 
 - 브랜치 만들기
 
-```
+```git
 git branch 브랜치명
 ```
 
 - 브랜치로 이동하기(체크아웃)
 
-```
+```git
 git checkout 브랜치명
 ```
 
@@ -102,20 +101,20 @@ git checkout 브랜치명
 
 - 명령어
 
-```
+```git
 git merge 브랜치명
 ```
 
 - 예) branch A 와 B를 병합하고 내가 B에 checkout 되어있을 경우
 
-```
+```git
 doyoon@DESKTOP-O58U3V6 MINGW64 ~/experiment/TIL (B)
 $ git merge A
 ```
 
 - 로컬 저장소에서 원격 저장소로 동기화
 
-```
+```git
 git push 저장소 브랜치
 예) git push origin main
 ```
@@ -125,35 +124,43 @@ git push 저장소 브랜치
   - git 연습사이트[https://learngitbranching.js.org/?locale=ko](https://learngitbranching.js.org/?locale=ko)
   
 ## HEAD
+
 - 현재 checkout 되어있는 branch의 가장 최신 commit
-- 
+  
 ## git push 할때 reject(거절) 된경우
+
 - 먼저git pull 해서 원격 저장소의 특정 브랜치에 있는 커밋들을 다
  로컬 저장소의 특정 브랜치를 반영 한 다음 push 하면 reject 해결
  
 ## git merge
+
 - 3-way merge
 - fast-forward merge
 
 ## git push시 내부에서 일어나는 일
+
 - git push origin main을 하면(현재 main branch를 checkout), 로컬 저장소에 있는 main branch에 있는 모든 commit이 원격 저장소에 있는 main branch 로 병합이 되는데, 이때 방식이 fast-forward
 
 ## git reset
+
 - commit을 취소 하고 싶을때 사용한다
 - git reset HEAD^ --hard : 하면 가장 최근에 한 commit을 취소한다
 
 ## reset으로 취소한 commit을 복구하고 싶다면
+
 - git reflog 로 commit 리스트를 확인하고 원하는 commit id(예:dad7299)를 확인한다
 - git cherry-pick commit id
 - 예: git cherry-pick dad7299
 
 ## git revert
+
 - 과거에 한 commit 중 지우고 싶은 commit이 있을 때
 - git revert dad7299 
 - commit을 새로 하나 만드는데 이는 현재 상태에서 dad7299 commit을 삭제한 commit 이다
 - 이는 공동으로 사용하는 branch에서는 이력을 함부로 바꾸면 혼란을 초래하기 때문에 사용한다
 
 ## git rebase
+
 - A 라는 branch에 checkout 된 상태에서 
 - git rebase main 을 사용하면
 - A의 commit 들이 main의 끝으로 이동한다

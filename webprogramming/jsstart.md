@@ -44,7 +44,7 @@
 
 * 클릭 시 알림 메세지 팝업  
 
-<img src="../image/hello.png" alt="hello popup">
+<img src="../imagejs/hello.png" alt="hello popup">
 
 ```html
 <body>
@@ -63,7 +63,7 @@
 * 한 문서 안에 여러 개의 `<script>` 태그 사용 가능
 * 내부 스크립트는 주로 `</body>` 태그 앞에 사용한다
   
-  <img src="../image/click.png" alt="click">
+  <img src="../imagejs/click.png" alt="click">
 
 ```html
 <body>

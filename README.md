@@ -57,3 +57,4 @@
    *고경희 강사님 JavaScript 수업 정리*
 
 - [JavaScript 기초](https://github.com/rick42600/TIL/blob/main/webprogramming/jsstart.md)
+- [JavaScript 기초함수](https://github.com/rick42600/TIL/blob/main/webprogramming/jsbasic.md)
