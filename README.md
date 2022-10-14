@@ -58,5 +58,6 @@
 
 - [기초 스크립트](https://github.com/rick42600/TIL/blob/main/javascript/jsstart.md)
 - [기초 함수](https://github.com/rick42600/TIL/blob/main/javascript/jsbasic.md)
-- [Variable 변수](https://github.com/rick42600/TIL/blob/main/javascript/jsvar.md)
-- [Data type 자료형](https://github.com/rick42600/TIL/blob/main/javascript/jsdatatype.md)
+- [Variable 변수](https://github.com/rick42600/TIL/blob/main/javascript/var.md)
+- [Data type 자료형](https://github.com/rick42600/TIL/blob/main/javascript/datatype.md)
+- [Operator 연산자](https://github.com/rick42600/TIL/blob/main/javascript/operator.md)
