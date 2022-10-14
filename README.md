@@ -56,6 +56,7 @@
 
    *고경희 강사님 JavaScript 수업 정리*
 
-- [JavaScript 기초](https://github.com/rick42600/TIL/blob/main/javascript/jsstart.md)
-- [JavaScript 기초함수](https://github.com/rick42600/TIL/blob/main/javascript/jsbasic.md)
-- [JavaScript 변수](https://github.com/rick42600/TIL/blob/main/javascript/jsvar.md)
+- [기초 스크립트](https://github.com/rick42600/TIL/blob/main/javascript/jsstart.md)
+- [기초 함수](https://github.com/rick42600/TIL/blob/main/javascript/jsbasic.md)
+- [Variable 변수](https://github.com/rick42600/TIL/blob/main/javascript/jsvar.md)
+- [Data type 자료형](https://github.com/rick42600/TIL/blob/main/javascript/jsdatatype.md)
