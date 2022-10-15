@@ -61,3 +61,4 @@
 - [Variable 변수](https://github.com/rick42600/TIL/blob/main/javascript/var.md)
 - [Data type 자료형](https://github.com/rick42600/TIL/blob/main/javascript/datatype.md)
 - [Operator 연산자](https://github.com/rick42600/TIL/blob/main/javascript/operator.md)
+- [Conditional Statement 조건문](https://github.com/rick42600/TIL/blob/main/javascript/conditional.md)
