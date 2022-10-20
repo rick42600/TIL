@@ -6,11 +6,6 @@
 
 - [GitHub사용법](https://github.com/rick42600/TIL/blob/main/github/github.md)
 
-## RPA 
-
-
-
-
 ## RPA Project
 
 - [REFramework_재정통계자료](https://github.com/rick42600/TIL/blob/main/RPA/project.md)
@@ -63,3 +58,5 @@
 - [Operator 연산자](https://github.com/rick42600/TIL/blob/main/javascript/operator.md)
 - [Conditional Statement 조건문](https://github.com/rick42600/TIL/blob/main/javascript/conditional.md)
 - [Loop 반복문](https://github.com/rick42600/TIL/blob/main/javascript/loop.md)
+- [JavaScript함수](https://github.com/rick42600/TIL/blob/main/javascript/function.md)
+
